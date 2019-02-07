@@ -10,7 +10,7 @@ $(document).ready(function() {
         {
             var results = JSON.parse(data);
 
-            printResults(results);
+            printRisultati(results);
         },
         error: function()
         {
@@ -22,7 +22,7 @@ $(document).ready(function() {
 
 // Stampa risultati Prenotazioni (Handlebars)
 
-function printResults(results)
+function printRisultati(results)
 {
     for (var i = 0; i < results.length; i++) {
 
